@@ -1,7 +1,6 @@
 // build your `/api/projects` router here
 const express = require("express")
 const Projects = require("./model")
-const environment = require("../../data/dbConfig")
 
 const router = express.Router()
 
